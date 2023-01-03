@@ -51,6 +51,7 @@ By observing above visualization we get to know that the number of cycles run by
 **Observations:** 
 By observing the above graph we can say that the Mean number of cycles after which jet engine fails is 206
 
+
 **Histogram representation of each sensor data**
 
  ![image](https://user-images.githubusercontent.com/98378358/210370691-966d1bb4-828c-4c60-a36c-1650c5a961d6.png)
@@ -59,6 +60,7 @@ By observing the above graph we can say that the Mean number of cycles after whi
 As we could see there are many sensor data which aren't following the normal distribution, we will tend to ignore those sensors for our model training. We would try to reduce the curse of dimensionality by doing so.
 
 **Machine learning models**
+
 ![image](https://user-images.githubusercontent.com/98378358/210370762-e68d778c-29c3-4d2c-bcb4-b06d8ec00ff0.png)
 
 After doing EDA & Training the data we applied few machine learning models to the training data to see how model behaves. The following table contains machine learning models and the respective results we got.
