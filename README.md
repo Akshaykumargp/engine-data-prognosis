@@ -37,7 +37,9 @@ The data are provided as a zip-compressed text file with 26 columns of numbers, 
 26)	Sensor measurement 26
 
 **EDA:**
+
  **Visualize total number of cycles by each engine**
+ 
  ![image](https://user-images.githubusercontent.com/98378358/210370613-dea3a5f3-03cf-405e-a07b-bcdbf50a0260.png)
 
  **Observations:**
