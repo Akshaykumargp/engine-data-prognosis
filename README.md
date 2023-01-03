@@ -34,7 +34,11 @@ The data are provided as a zip-compressed text file with 26 columns of numbers, 
 5)	Operational setting 3
 6)	Sensor measurement 1
 7)	Sensor measurement 2
-...
+8)	
+    ...
+
+    ...
+
 26)	Sensor measurement 26
 
 **EDA:**
@@ -45,14 +49,14 @@ The data are provided as a zip-compressed text file with 26 columns of numbers, 
 
 
  **Observations:**  
-By observing above visualization we get to know that the number of cycles run by the each engine before failing.
+By observing the above visualization, we learn that the number of cycles carried out by each engine before failure.
 
 **Mean number of cycles and histogram of number of cycle**
 
 ![image](https://user-images.githubusercontent.com/98378358/210375255-46edc5f2-89ec-4f2e-a7f3-74d1e0a2cd91.png)
 
 **Observations:**  
-By observing the above graph we can say that the Mean number of cycles after which jet engine fails is 206
+Based on the graph above, we can say that the average number of cycles after which the jet engine fails is 206.
 
 
 **Histogram representation of each sensor data**
@@ -65,7 +69,7 @@ As we could see there are many sensor data which aren't following the normal dis
 
 **Machine learning models**
 
-After doing EDA & Training the data we applied few machine learning models to the training data to see how model behaves. The following table contains machine learning models and the respective results we got.
+After performing EDA and training the data, a few machine learning models were applied to the training data to observe the behaviour of the model. The results we obtained using machine learning models are shown in the table below.
  
  ![image](https://user-images.githubusercontent.com/98378358/210374522-a529a0a1-668b-40a4-80ae-4b346017911a.png)
 
@@ -73,7 +77,7 @@ After doing EDA & Training the data we applied few machine learning models to th
  
 **Summary**
 
-By training with the above all models, XGboost  regressor model is performing best, so i choose the xgboost model for further testing and final predictions.
+I found that XGboost regressor model performs best during training with all of the aforementioned models, thus I decided to use it for further testing and final predictions.
 
 
 **References**
