@@ -40,32 +40,35 @@ The data are provided as a zip-compressed text file with 26 columns of numbers, 
 
  **Visualize total number of cycles by each engine**
  
- ![image](https://user-images.githubusercontent.com/98378358/210370613-dea3a5f3-03cf-405e-a07b-bcdbf50a0260.png)
+ ![image](https://user-images.githubusercontent.com/98378358/210375130-784201d4-d7dc-4eda-817d-083d0fa86f56.png)
 
- **Observations:**
+
+ **Observations:**  
 By observing above visualization we get to know that the number of cycles run by the each engine before failing.
 
 **Mean number of cycles and histogram of number of cycle**
 
-![image](https://user-images.githubusercontent.com/98378358/210370646-d69d2be8-91ff-4d2c-bdef-8ce7f28511cb.png)
+![image](https://user-images.githubusercontent.com/98378358/210375255-46edc5f2-89ec-4f2e-a7f3-74d1e0a2cd91.png)
 
-**Observations:** 
-
+**Observations:**  
 By observing the above graph we can say that the Mean number of cycles after which jet engine fails is 206
 
 
 **Histogram representation of each sensor data**
 
- ![image](https://user-images.githubusercontent.com/98378358/210370691-966d1bb4-828c-4c60-a36c-1650c5a961d6.png)
+ ![image](https://user-images.githubusercontent.com/98378358/210375327-5d5a3180-57d1-4a32-aa8d-93d964eaf79c.png)
 
-**Observations:**
+
+**Observations:**  
 As we could see there are many sensor data which aren't following the normal distribution, we will tend to ignore those sensors for our model training. We would try to reduce the curse of dimensionality by doing so.
 
 **Machine learning models**
 
-![image](https://user-images.githubusercontent.com/98378358/210370762-e68d778c-29c3-4d2c-bcb4-b06d8ec00ff0.png)
-
 After doing EDA & Training the data we applied few machine learning models to the training data to see how model behaves. The following table contains machine learning models and the respective results we got.
+ 
+ ![image](https://user-images.githubusercontent.com/98378358/210374522-a529a0a1-668b-40a4-80ae-4b346017911a.png)
+
+ 
  
 **Summary**
 
