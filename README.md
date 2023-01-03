@@ -37,6 +37,7 @@ EDA:
 By observing above visualization we get to know that the number of cycles run by the each engine before failing.
 
  Mean number of cycles and histogram of number of cycle
+![image](https://user-images.githubusercontent.com/98378358/210369739-bd26f61a-cdb2-45bf-8af9-f5c6ddffaf7c.png)
 
  
 Observations: 
