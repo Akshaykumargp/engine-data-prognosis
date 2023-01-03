@@ -17,7 +17,7 @@ The engine is operating normally at the start of each time series, and develops 
  
 # Running the notebooks
 - clone this repository to your computer
-- navigate into the folder:  `where you saved your data`
+- navigate into the project folder:  
 - create a folder for the data: `mkdir data`
 - download the data from the official [NASA data repository](https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognostic-data-repository/#turbofan) [3] 
 - Extract the `.zip` file to `exploring-nasas-turbofan-data-set/data/`
@@ -45,10 +45,12 @@ The data are provided as a zip-compressed text file with 26 columns of numbers, 
  **Observations:**
 By observing above visualization we get to know that the number of cycles run by the each engine before failing.
 
-** Mean number of cycles and histogram of number of cycle**
+**Mean number of cycles and histogram of number of cycle**
+
 ![image](https://user-images.githubusercontent.com/98378358/210370646-d69d2be8-91ff-4d2c-bdef-8ce7f28511cb.png)
 
 **Observations:** 
+
 By observing the above graph we can say that the Mean number of cycles after which jet engine fails is 206
 
 
