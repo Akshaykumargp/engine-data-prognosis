@@ -1,5 +1,6 @@
 # Remaining Useful Life (RUL) prediction for Turbofan Engines
-**** Exploring NASAs turbofan dataset****
+
+**Exploring NASAs turbofan dataset**
 
 The project objective is to estimate Remaining Useful Life (RUL) with Machine Learning. RUL is defined as a remaining time that a component can function with an acceptable performance before it fails. 
 The model should provide prediction uncertainties and be extensively tested with Prognostics metrics.
