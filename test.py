@@ -27,7 +27,7 @@ def preprocess_data(df):
 
 
 #read test data  
-test_data = pd.read_csv(r"D:\AKSHAY\study\python\Project\CMaps\test_FD001.txt", sep = "\s+", header = None)
+test_data = pd.read_csv(r".\Data\test_FD001.txt", sep = "\s+", header = None)
 test_data.columns = ["id","cycle","op1","op2","op3","sensor1","sensor2","sensor3","sensor4","sensor5"
                     ,"sensor6","sensor7","sensor8","sensor9","sensor10","sensor11","sensor12","sensor13"
                     ,"sensor14","sensor15","sensor16","sensor17","sensor18","sensor19"
