@@ -17,6 +17,7 @@ The engine is operating normally at the start of each time series, and develops 
  
  
 # Running the notebooks
+- For this project, I've been using Python 3.9.13 version.
 - clone this repository to your computer
 - navigate into the project folder:  
 - create a folder for the data: `mkdir data`
