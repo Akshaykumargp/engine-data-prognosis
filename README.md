@@ -73,6 +73,24 @@ As we could see there are many sensor data which aren't following the normal dis
 After performing EDA and training the data, a few machine learning models were applied to the training data to observe the behaviour of the model. The results we obtained using machine learning models are shown in the table below.
  
  ![image](https://user-images.githubusercontent.com/98378358/210374522-a529a0a1-668b-40a4-80ae-4b346017911a.png)
+ 
+**To run the test.py file follow the below steps**
+
+1.Open Anaconda commond promt.
+
+2.Navigate to the project directory.
+
+3.Activate the Python environment created for this project.
+
+4.Run the test.py file.
+
+**Pseudo code:-**
+
+(base) PS C:\Users\ABC> cd "your project directory"
+
+(base) PS your project directory> conda activate env_name
+
+(env_name) PS your project directory> python test.py
 
  
  
